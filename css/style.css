@@ -1,0 +1,319 @@
+
+:root{
+    --link-color: #212121;
+        --heading-font-family: "Roboto", sans-serif;
+}
+
+.link-class {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+    .text-blue {
+            color: #2196F3;
+        }
+    
+        .text-white {
+            color: #000000;
+        }
+    
+.global-header {
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display:inline;
+}
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: rgba(33, 33, 33, 1);
+};
+.global-header .main-navigation a:hover {
+    color: #2196F3};
+.global-header .main-navigation { cursor:poiter};
+
+
+.global-header .contact-class .mail-class  a:link,
+.global-header .contact-class .mail-class a:visited{ 
+    color:#212121;}
+.global.header .contact-class .mail-class  a:hover {
+    color: #2196F3;}
+global.header .contact-class .mail-class {
+    cursor: pointer;}
+
+.global-header.tel-class .tel-text a:link,
+.global-header.tel-class .tel-text a:visited {color:#212121;}
+.global-header.tel-class .tel-text a:hover {color: #2196F3;}
+.global-header.tel-class .tel-text  {cursor: poiter;}
+
+.first-section{
+    background: #2F303A;
+    text-align: center;
+}
+.first-section .head-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    color: #ffff;
+    text-align: center;
+}
+.first-section .button1 {
+    background-color: #2196F3;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        letter-spacing: 6%;
+        size: 16px;
+        line-height: 30px;
+        border-radius: 3px;
+}
+
+.second-section {
+    background: #fff;
+}
+.second-section .htwo-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+.second-section .ptwo-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.section-three {
+    background-color: #fff;
+}
+.section-three .hthree-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 3%;
+    color: #212121;
+}
+.section-four .hfour-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 3%;
+    color: #212121;
+}
+.section-four .hfive-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3%;
+    color: #212121;
+}
+.section-four .pfour-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3%;
+    color: #757575;
+}
+.global-footer {
+    background: #2F303A;
+    text-align: left;
+
+    
+}
+.golbal-footer .text-whites {
+color: white;
+}
+.global-footer .footer-address {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3%;
+    color: #fff;
+}
+
+
+
+
+.global-footer .footer-section .blue-text {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+.global-footer .footer-section .white-text {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+.golbal-footer .footer-address .mail-class {
+    color: #fff
+}
+
+.global-footer .footer-address .tel-text {
+    color: #fff
+}
+
+/*second-page*/
+.link-class {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+
+.text-blue {
+    color: #2196F3;
+}
+
+.text-white {
+    color: #000000;
+}
+
+.global-header {
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+}
+
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: rgba(33, 33, 33, 1);
+}
+
+;
+
+.global-header .main-navigation a:hover {
+    color: #2196F3
+}
+
+;
+
+.global-header .main-navigation {
+    cursor: poiter
+}
+
+;
+
+
+.global-header .contact-class .mail-class a:link,
+.global-header .contact-class .mail-class a:visited {
+    color: #212121;
+}
+
+.global.header .contact-class .mail-class a:hover {
+    color: #2196F3;
+}
+
+global.header .contact-class .mail-class {
+    cursor: pointer;
+}
+
+.global-header.tel-class .tel-text a:link,
+.global-header.tel-class .tel-text a:visited {
+    color: #212121;
+}
+
+.global-header.tel-class .tel-text a:hover {
+    color: #2196F3;
+}
+
+.global-header.tel-class .tel-text {
+    cursor: poiter;
+}
+/*buttun section*/
+.button-section .button {
+    background-color: #F5F4FA;
+        border: none;
+        color: #212121;
+        text-align: center;
+        text-decoration: none;
+        display:inline;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        letter-spacing: 3%;
+        size: 16px;
+        line-height: 26px;
+        border-radius: 3px;
+        cursor: pointer;
+}
+.button-section .button:hover {
+    background-color: #2196F3;
+    
+    color: white;
+}
+
+
+/*image section*/
+.image-section .image-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6%;
+    color:#212121;
+}
+
+.image-section .description-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3%;
+    color:#757575;
+}
+.global-footer {
+    background: #2F303A;
+    text-align: left;
+
+
+}
+
+.golbal-footer .text-whites {
+    color: white;
+}
+
+.global-footer .footer-address {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3%;
+    color: #fff;
+}
+
+.global-footer .footer-section .blue-text {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+
+.global-footer .footer-section .white-text {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26 px;
+}
+
+.golbal-footer .footer-address .mail-class {
+    color: #fff
+}
+
+.global-footer .footer-address .tel-text {
+    color: #fff
+}
