@@ -6,7 +6,7 @@
 
 .link-class {
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: 600;
     font-size: 26 px;
 }
     .text-blue {
@@ -120,29 +120,26 @@ a:hover {
 .image-ourteam {
     list-style-type: none;
 }
+.section-four {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3%;
+    font-family: var(--heading-font-family);
+}
+
 .section-four .hfour-text {
     font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 3%;
     color: #212121;
-    font-family: var(--heading-font-family);
 }
+
 .section-four .hfive-text {
     font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 3%;
     color: #212121;
-    font-family: var(--heading-font-family);
 }
+
 .section-four .pfour-text {
     font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 3%;
     color: #757575;
-    font-family: var(--heading-font-family);
 }
 .global-footer {
     background: #2F303A;
