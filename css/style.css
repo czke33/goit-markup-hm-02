@@ -8,6 +8,7 @@
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 26 px;
+    text-decoration: none;
 }
     .text-blue {
             color: #2196F3;
@@ -23,19 +24,24 @@
     font-size: 14px;
     font-weight: 500;
     display:inline;
+
 }
 /*--Link section--*/
  .list-class {
     list-style-type: none;
+    
 }
  .global-header .main-navigation .list-class a:link,
  .global-header .main-navigation .list-class a:visited {
     color: rgba(33, 33, 33, 1);
+    text-decoration: none;
 }
 .global-header .main-navigation .list-class a:hover {
     color: #2196F3;
 }
-
+.global-header .main-navigation .list-class a:active {
+    color: #2196F3;
+}
 .global-header .main-navigation .list-class { 
     cursor:poiter;
 }
@@ -47,6 +53,7 @@
 .global-header .main-navigation .contact 
 a:hover {
     color:#2196F3;
+    text-decoration: none;
 }
 
 .first-section{
@@ -186,6 +193,7 @@ color: white;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26 px;
+    text-decoration: none;
 }
 
 .text-blue {
@@ -202,15 +210,20 @@ color: white;
     font-weight: 500;
     display: inline;
     font-family: var(--heading-font-family);
+    text-decoration: none;
 }
 
 .global-header .main-navigation a:link,
 .global-header .main-navigation a:visited {
     color: rgba(33, 33, 33, 1);
+    text-decoration: none;
 }
 
 
 .global-header .main-navigation a:hover {
+    color: #2196F3;
+}
+.global-header .main-navigation a:active {
     color: #2196F3;
 }
 
@@ -221,14 +234,18 @@ color: white;
 .global-header .contact-class .mail-class a:link,
 .global-header .contact-class .mail-class a:visited {
     color: #212121;
+    text-decoration: none;
 }
 
 .global.header .contact-class .mail-class a:hover {
     color: #2196F3;
 }
 
-global.header .contact-class .mail-class {
+.global.header .contact-class .mail-class {
     cursor: pointer;
+}
+.global-header .contact-class .mail-class a:active {
+    color: #2196F3;
 }
 
 .global-header.tel-class .tel-text a:link,
@@ -236,10 +253,13 @@ global.header .contact-class .mail-class {
     color: #212121;
 }
 
-.global-header.tel-class .tel-text a:hover {
+.global-header .tel-class .tel-text a:hover {
     color: #2196F3;
+    text-decoration: none;
 }
-
+.global-header .tel-class .tel-text a:visited {
+    color: #2196F3;
+} 
 .global-header.tel-class .tel-text {
     cursor: poiter;
 }
@@ -269,6 +289,9 @@ global.header .contact-class .mail-class {
     background-color: #2196F3;
     
     color: white;
+}
+.button-section .buton:active {
+    color:#2196F3;
 }
 
 
