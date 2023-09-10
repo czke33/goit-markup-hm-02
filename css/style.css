@@ -31,6 +31,9 @@
     list-style-type: none;
     
 }
+     .nav-link-current {
+          color: #2196F3;
+}
  .global-header .main-navigation .list-class a:link,
  .global-header .main-navigation .list-class a:visited {
     color: rgba(33, 33, 33, 1);
@@ -42,18 +45,30 @@
 .global-header .main-navigation .list-class a:active {
     color: #2196F3;
 }
+.global-header .main-navigation .list-class a:focus {
+    color:#2196F3;
+}
 .global-header .main-navigation .list-class { 
     cursor:poiter;
 }
+
 /*--Contact--*/
  .main-navigation .contact {
     list-style-type: none;
 }
+.global-header .main-navigation .nav-link-current{
+    color:#2196F3;
+}
 
-.global-header .main-navigation .contact 
-a:hover {
+.global-header .main-navigation .contact a:hover {
     color:#2196F3;
     text-decoration: none;
+}
+.global-header .main-navigation .contact a:active {
+    color:#2196F3;
+}
+.global-header .main-navigation .contact a:focus {
+    color:#2196F3;
 }
 
 .first-section{
@@ -85,6 +100,11 @@ a:hover {
         line-height: 30px;
         border-radius: 3px;
         font-family: var(--heading-font-family);
+        
+}
+.first-section button1:hover{
+       background-color: #2196F3;
+       color: #188CE8;
 }
 
 .second-section {
@@ -226,11 +246,16 @@ color: white;
 .global-header .main-navigation a:active {
     color: #2196F3;
 }
+.global-header .main-navigation a:focus {
+    color:#2196F3;
+}
 
 .global-header .main-navigation {
     cursor: poiter;
 }
-
+.global-header .main-navigation .nav-link-current {
+    color:#2196F3;
+}
 .global-header .contact-class .mail-class a:link,
 .global-header .contact-class .mail-class a:visited {
     color: #212121;
@@ -247,6 +272,9 @@ color: white;
 .global-header .contact-class .mail-class a:active {
     color: #2196F3;
 }
+.global-header .contact-class .mail-class a:focus {
+    color:#2196F3;
+}
 
 .global-header.tel-class .tel-text a:link,
 .global-header.tel-class .tel-text a:visited {
@@ -260,6 +288,9 @@ color: white;
 .global-header .tel-class .tel-text a:visited {
     color: #2196F3;
 } 
+.global-header .tel-class .tel-text a:focus {
+    color:#2196F3; 
+}
 .global-header.tel-class .tel-text {
     cursor: poiter;
 }
@@ -292,6 +323,9 @@ color: white;
 }
 .button-section .buton:active {
     color:#2196F3;
+}
+.button-section .buton:focus {
+    color: #2196F3;
 }
 
 
@@ -339,7 +373,7 @@ color: white;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26 px;
-
+}
 
 .global-footer .footer-section .white-text {
     color: white;
