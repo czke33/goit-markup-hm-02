@@ -42,12 +42,12 @@
 .global-header .main-navigation .list-class a:hover {
     color: #2196F3;
 }
-.global-header .main-navigation .list-class a:active {
+.global-header .main-navigation .list-class a:focus {
     color: #2196F3;
 }
-.global-header .main-navigation .list-class a:focus {
-    color:#2196F3;
-}
+
+.global-header .main-navigation .list-class a:active {
+    color: #2196F3;}
 .global-header .main-navigation .list-class { 
     cursor:poiter;
 }
@@ -64,10 +64,10 @@
     color:#2196F3;
     text-decoration: none;
 }
-.global-header .main-navigation .contact a:active {
+.global-header .main-navigation .contact a:focus {
     color:#2196F3;
 }
-.global-header .main-navigation .contact a:focus {
+.global-header .main-navigation .contact a:active {
     color:#2196F3;
 }
 
@@ -243,10 +243,11 @@ color: white;
 .global-header .main-navigation a:hover {
     color: #2196F3;
 }
-.global-header .main-navigation a:active {
+
+.global-header .main-navigation a:focus {
     color: #2196F3;
 }
-.global-header .main-navigation a:focus {
+.global-header .main-navigation a:active {
     color:#2196F3;
 }
 
@@ -269,10 +270,10 @@ color: white;
 .global.header .contact-class .mail-class {
     cursor: pointer;
 }
-.global-header .contact-class .mail-class a:active {
+.global-header .contact-class .mail-class a:focus {
     color: #2196F3;
 }
-.global-header .contact-class .mail-class a:focus {
+.global-header .contact-class .mail-class a:active {
     color:#2196F3;
 }
 
@@ -285,10 +286,10 @@ color: white;
     color: #2196F3;
     text-decoration: none;
 }
-.global-header .tel-class .tel-text a:visited {
+.global-header .tel-class .tel-text a:focus {
     color: #2196F3;
 } 
-.global-header .tel-class .tel-text a:focus {
+.global-header .tel-class .tel-text a:active {
     color:#2196F3; 
 }
 .global-header.tel-class .tel-text {
@@ -321,10 +322,10 @@ color: white;
     
     color: white;
 }
-.button-section .buton:active {
+.button-section .buton:focus {
     color:#2196F3;
 }
-.button-section .buton:focus {
+.button-section .buton:active {
     color: #2196F3;
 }
 
