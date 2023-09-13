@@ -339,11 +339,10 @@ color: white;
     color: white;
 }
 .button:focus {
-    color: var(--link-hover-color);
+   background-color: var(--link-hover-color);
+   color: white;
 }
- .button:active {
-    color: var(--link-hover-color);
-}
+ 
 
 
 /*--image section second page--*/
